@@ -6,18 +6,17 @@
 <?php
     $name = "BeeJay";
     #das ist mein Name
-    echo "My name is $name"; //cool oder
+    echo "My name is $name <br />"; //cool oder
     /*
         ein multiline Kommentar
     */
-
-    $int = 42;
-    $float = 3.14;
-    $boolean = true;
+    echo "Eine Liste mit Zahlen: <br />";
     
-    echo $int . "<br />";
-    echo $float . "<br />";
-    echo $boolean . "<br />";
+    $i = 1;
+    while ($i <15){
+        echo $i++;
+    }
 
+   
 
 ?>
