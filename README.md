@@ -1,3 +1,5 @@
 # Example Repository
 
-This is a sample repo, hello world!
+This is a practice repo, hello world!
+
+Here Im putting my practice code.
