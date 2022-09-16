@@ -4,9 +4,9 @@
 </h1>
 
 <?php
-    $name = BeeJay
+    $name = "BeeJay";
     #das ist mein Name
-    echo "My name is $name"; //cool oder
+    echo "My name is"+ $name; //cool oder
     /*
         ein multiline Kommentar
     */
