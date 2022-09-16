@@ -11,4 +11,13 @@
         ein multiline Kommentar
     */
 
+    $int = 42;
+    $float = 3.14;
+    $boolean = true;
+    
+    echo $int . "<br />";
+    echo $float . "<br />";
+    echo $boolean . "<br />";
+
+
 ?>
