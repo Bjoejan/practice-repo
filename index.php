@@ -4,5 +4,11 @@
 </h1>
 
 <?php
-    echo "My name is Bjoern"
+    $name = BeeJay
+    #das ist mein Name
+    echo "My name is $name"; //cool oder
+    /*
+        ein multiline Kommentar
+    */
+
 ?>
