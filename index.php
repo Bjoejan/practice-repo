@@ -5,13 +5,9 @@
 
 <h2>Concatenation</h2>
 <?php
-    $name = "Bjoern";
-    $nachname = "Mageney";
-    $haustier = "Shiva";
+    $sentence = "Hello World!";
 
-    echo 'Mein name ist ' . $name . '  ' . $nachname . 
-         ' und mein Haustier heisst ' . $haustier;
-    
-     echo "Mein name ist " . $name . " " . $nachname . 
-         " und mein Haustier heisst " . $haustier;
+    //echo sentence
+
+    echo str_replace("Hello", "Moin", $sentence);
 ?>
