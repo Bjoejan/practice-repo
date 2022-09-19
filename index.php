@@ -9,7 +9,9 @@
     $nachname = "Mageney";
     $haustier = "Shiva";
 
-    echo "Mein name ist " . $name . " " . $nachname . 
+    echo 'Mein name ist ' . $name . '  ' . $nachname . 
+         ' und mein Haustier heisst ' . $haustier;
+    
+     echo "Mein name ist " . $name . " " . $nachname . 
          " und mein Haustier heisst " . $haustier;
-
 ?>
