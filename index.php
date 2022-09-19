@@ -3,20 +3,13 @@
     Hello World!
 </h1>
 
+<h2>Concatenation</h2>
 <?php
-    $name = "BeeJay";
-    #das ist mein Name
-    echo "My name is $name <br />"; //cool oder
-    /*
-        ein multiline Kommentar
-    */
-    echo "Eine Liste mit Zahlen: <br />";
-    
-    $i = 1;
-    while ($i <15){
-        echo $i++ . "<br />";
-    }
+    $name = "Bjoern";
+    $nachname = "Mageney";
+    $haustier = "Shiva";
 
-   
+    echo "Mein name ist " . $name . " " . $nachname . 
+         " und mein Haustier heisst " . $haustier;
 
 ?>
